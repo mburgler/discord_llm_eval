@@ -3,8 +3,6 @@ Matches: 442
 Mismatches: 177
 Accuracy: 0.7141
 
-task name for all: community|lexam-en-idk|0
-
 Examples of mismatches (up to 10):
 #3: gold=['A'] pred=['C']
 #4: gold=['B'] pred=['C']
