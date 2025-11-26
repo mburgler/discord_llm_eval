@@ -1,0 +1,71 @@
+{
+  "doc": {
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "fewshot_samples": [],
+    "fewshot_sorting_class": null,
+    "generation_grammar": null,
+    "generation_size": 32768,
+    "gold_index": 0,
+    "id": "463",
+    "images": null,
+    "instruction": "You are an expert in Swiss Law and address legal issues in a structured, exam-style manner.\nYou are given a multiple-choice question, where only one choice (e.g., A, B, C, etc.) is correct.\nAssume Swiss law applies unless specifically stated otherwise. If the context of the course justifies it, consider legal frameworks beyond Swiss law as well.\n\nPlease reason through the question step by step, using a chain-of-thought approach:\n- Clarify the facts: Briefly restate or highlight the key facts in the question to anchor your reasoning.\n- Issue Identification: What legal issue(s) arise from the facts?\n- Rule Explanation: What legal rules or principles are relevant, and what are their sources (e.g., statutes, case law, doctrine)?\n- Application and Reasoning: Apply the relevant rules to the facts, carefully weighing any ambiguities, exceptions, or competing interpretations.\n- Eliminate Incorrect Answers: Briefly explain why each incorrect answer is wrong or less convincing.\n- Conclusion: Clearly state the correct answer choice (e.g., A, B, C, etc.) with a brief justification for why it best fits the legal analysis.\n",
+    "num_samples": 1,
+    "original_query": null,
+    "query": "Question:\nWhich of the following statements is/are incorrect?\ni. A contract suffering from a fundamental error is voidable by the party that was acting under error.\nii. Swiss commercial law is based on a comprehensive codification of the civil code in the 2000s.\niii. The Swiss Broadcasting Corporation (SRG) is mainly financed by a levy, which all households in Switzerland are required to pay. This ensures the SRG to fulfil its mandate in favour of democracy, cohesion and in reaching the entire population.\niv. Switzerland is a member of the European Free Trade Association (EFTA), but not of the European Economic Area (EEA).\nv. In Switzerland’s direct democracy, education is considered a key element for the regeneration of cultural resources. In this sense, the Swiss constitution provides for an extensive public education.\n\nChoices:\nA) ii\nB) i, ii, and iv\nC) i, ii, iii, and iv\nD) i and v\nE) I don't know\n\nBefore answering, think about the question step by step.\nAnswer only if you are confident, since mistakes are penalized with -1 points, while correct answers receive 1 point, and the answer E) \"I don't know\" always receives 0 points.\n\nFormat your final answer as follows:\nFinal Answer: ###C###\n\nAnswer:\n",
+    "sampling_methods": [
+      "GENERATIVE"
+    ],
+    "specific": {
+      "extracted_golds": [
+        "A"
+      ],
+      "extracted_predictions": [
+        "A"
+      ]
+    },
+    "stop_sequences": [
+      "\n",
+      "\n\n"
+    ],
+    "task_name": "community|lexam-en-idk|0",
+    "unconditioned_query": null,
+    "use_logits": true
+  },
+  "metric": {
+    "extract_fail": 0.0,
+    "idk_freq": 0.0,
+    "idk_score": 1.0,
+    "trad_score": 1.0
+  },
+  "model_response": {
+    "argmax_logits_eq_gold": [],
+    "input": [
+      {
+        "content": "You are an expert in Swiss Law and address legal issues in a structured, exam-style manner.\nYou are given a multiple-choice question, where only one choice (e.g., A, B, C, etc.) is correct.\nAssume Swiss law applies unless specifically stated otherwise. If the context of the course justifies it, consider legal frameworks beyond Swiss law as well.\n\nPlease reason through the question step by step, using a chain-of-thought approach:\n- Clarify the facts: Briefly restate or highlight the key facts in the question to anchor your reasoning.\n- Issue Identification: What legal issue(s) arise from the facts?\n- Rule Explanation: What legal rules or principles are relevant, and what are their sources (e.g., statutes, case law, doctrine)?\n- Application and Reasoning: Apply the relevant rules to the facts, carefully weighing any ambiguities, exceptions, or competing interpretations.\n- Eliminate Incorrect Answers: Briefly explain why each incorrect answer is wrong or less convincing.\n- Conclusion: Clearly state the correct answer choice (e.g., A, B, C, etc.) with a brief justification for why it best fits the legal analysis.\nQuestion:\nWhich of the following statements is/are incorrect?\ni. A contract suffering from a fundamental error is voidable by the party that was acting under error.\nii. Swiss commercial law is based on a comprehensive codification of the civil code in the 2000s.\niii. The Swiss Broadcasting Corporation (SRG) is mainly financed by a levy, which all households in Switzerland are required to pay. This ensures the SRG to fulfil its mandate in favour of democracy, cohesion and in reaching the entire population.\niv. Switzerland is a member of the European Free Trade Association (EFTA), but not of the European Economic Area (EEA).\nv. In Switzerland’s direct democracy, education is considered a key element for the regeneration of cultural resources. In this sense, the Swiss constitution provides for an extensive public education.\n\nChoices:\nA) ii\nB) i, ii, and iv\nC) i, ii, iii, and iv\nD) i and v\nE) I don't know\n\nBefore answering, think about the question step by step.\nAnswer only if you are confident, since mistakes are penalized with -1 points, while correct answers receive 1 point, and the answer E) \"I don't know\" always receives 0 points.\n\nFormat your final answer as follows:\nFinal Answer: ###C###\n\nAnswer:\n",
+        "role": "user"
+      }
+    ],
+    "input_tokens": [],
+    "logits": null,
+    "logprobs": [],
+    "output_tokens": [],
+    "padded_tokens_count": 0,
+    "reasonings": [
+      "**Evaluating Swiss Law**\n\nI'm currently dissecting a Swiss law multiple-choice question, focusing on identifying the incorrect statement(s). I've started with the first statement about fundamental errors in contracts and their voidability. Now, I'm carefully analyzing its veracity based on the specific legal rule I'm examining. This will help determine if it is incorrect.\n\n\n**Assessing Legal Foundations**\n\nI've just concluded that the initial statement regarding fundamental errors aligns with Article 23 CO, confirming its validity in Swiss law. Now I've moved onto the second assertion, about commercial law stemming from a codification in the 2000s. After scrutinizing the historical timeline of the Swiss Civil Code and Code of Obligations, I've determined this statement is inaccurate, as it misrepresents the true origins of the legal framework. I'm moving on to the final statement, to assess its accuracy.\n\n\n**Analyzing SRG's Role**\n\nI've just validated the third statement concerning the SRG's funding model and public service mandate, confirming its accuracy based on my understanding. Next, I rigorously examined the fourth statement, verifying Switzerland's membership in EFTA and its non-participation in the EEA. This aligned perfectly with my existing knowledge, so I've marked it as correct. I'm now transitioning to scrutinizing the fifth statement and the role of education in Switzerland's system.\n\n\n**Validating Education's Role**\n\nI've just concluded that the fifth statement, concerning the significance of education within the Swiss system, aligns with constitutional provisions. I've cross-referenced this with Article 62 of the Swiss Federal Constitution, solidifying my validation. Moving forward, I am certain the only incorrect statement is the one referencing the Civil Code's origins in the 2000s. I am ready to select the accurate answer!\n\n\n**Formulating a Response**\n\nI'm now formulating a detailed response for the multiple-choice question. I'm structuring my answer by initially confirming the veracity of each individual statement before eliminating the incorrect answers. I'm focusing on providing clear, rule-based explanations, referencing relevant articles and ensuring I meet the examination criteria. I'm aiming for a concise, step-by-step approach to justify my final selection.\n\n\n**Summarizing the Analysis**\n\nI've reviewed the statements, confirming that only statement ii is incorrect. The Swiss Civil Code has existed for over a century, not originating from a 2000s codification. Statements iii, iv, and v are all accurate, referencing Serafe, EFTA, and free education, respectively. I'm ready to finalize the answer.\n\n\n"
+    ],
+    "text": [
+      "Here is the step-by-step reasoning to determine the correct answer:\n\n**Clarify the facts and Issue Identification**\nThe question requires an evaluation of five distinct statements concerning Swiss contract law, legal history, media funding, international relations, and constitutional provisions on education. The goal is to identify which statement(s) is/are legally or factually **incorrect**.\n\n**Rule Explanation and Application**\n*   **Statement i (Contract Law):** Under Article 23 of the Swiss Code of Obligations (CO), a party acting under a fundamental error is not bound by the contract. This state is legally characterized as the contract being voidable (*anfechtbar*) by the mistaken party. This statement is **correct**.\n*   **Statement ii (Legal History):** The Swiss Civil Code (ZGB) was adopted in 1907 and entered into force in 1912. The Code of Obligations (OR), governing commercial law, entered into force in 1912. While revisions occur, Swiss commercial law is not based on a comprehensive codification from the 2000s; its foundation is much older. This statement is **incorrect**.\n*   **Statement iii (Media Law):** The Swiss Broadcasting Corporation (SRG SSR) is primarily funded by a household levy (currently collected by Serafe), mandated to ensure public service. This statement is **correct**.\n*   **Statement iv (International Law):** Switzerland is a founding member of the European Free Trade Association (EFTA) but rejected membership in the European Economic Area (EEA) in a 1992 referendum. This statement is **correct**.\n*   **Statement v (Constitutional Law):** The Swiss Federal Constitution (Art. 61a, 62) emphasizes the importance of education and mandates that cantons provide sufficient, free public primary education. This statement is **correct**.\n\n**Eliminate Incorrect Answers**\n*   **Choice B:** Incorrect because statements i and iv are actually correct.\n*   **Choice C:** Incorrect because statements i, iii, and iv are actually correct.\n*   **Choice D:** Incorrect because statements i and v are actually correct.\n\n**Conclusion**\nOnly statement **ii** is incorrect. Therefore, Choice A is the right answer.\n\nFinal Answer: ###A###"
+    ],
+    "text_post_processed": [
+      "Here is the step-by-step reasoning to determine the correct answer:\n\n**Clarify the facts and Issue Identification**\nThe question requires an evaluation of five distinct statements concerning Swiss contract law, legal history, media funding, international relations, and constitutional provisions on education. The goal is to identify which statement(s) is/are legally or factually **incorrect**.\n\n**Rule Explanation and Application**\n*   **Statement i (Contract Law):** Under Article 23 of the Swiss Code of Obligations (CO), a party acting under a fundamental error is not bound by the contract. This state is legally characterized as the contract being voidable (*anfechtbar*) by the mistaken party. This statement is **correct**.\n*   **Statement ii (Legal History):** The Swiss Civil Code (ZGB) was adopted in 1907 and entered into force in 1912. The Code of Obligations (OR), governing commercial law, entered into force in 1912. While revisions occur, Swiss commercial law is not based on a comprehensive codification from the 2000s; its foundation is much older. This statement is **incorrect**.\n*   **Statement iii (Media Law):** The Swiss Broadcasting Corporation (SRG SSR) is primarily funded by a household levy (currently collected by Serafe), mandated to ensure public service. This statement is **correct**.\n*   **Statement iv (International Law):** Switzerland is a founding member of the European Free Trade Association (EFTA) but rejected membership in the European Economic Area (EEA) in a 1992 referendum. This statement is **correct**.\n*   **Statement v (Constitutional Law):** The Swiss Federal Constitution (Art. 61a, 62) emphasizes the importance of education and mandates that cantons provide sufficient, free public primary education. This statement is **correct**.\n\n**Eliminate Incorrect Answers**\n*   **Choice B:** Incorrect because statements i and iv are actually correct.\n*   **Choice C:** Incorrect because statements i, iii, and iv are actually correct.\n*   **Choice D:** Incorrect because statements i and v are actually correct.\n\n**Conclusion**\nOnly statement **ii** is incorrect. Therefore, Choice A is the right answer.\n\nFinal Answer: ###A###"
+    ],
+    "truncated_tokens_count": 0,
+    "unconditioned_logprobs": null
+  }
+}
