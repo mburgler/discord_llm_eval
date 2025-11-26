@@ -1,0 +1,16 @@
+Total: 619
+Matches: 442
+Mismatches: 177
+Accuracy: 0.7141
+
+Examples of mismatches (up to 10):
+#3: gold=['A'] pred=['C']
+#4: gold=['B'] pred=['C']
+#7: gold=['A'] pred=['D']
+#10: gold=['D'] pred=['A']
+#12: gold=['B'] pred=['C']
+#14: gold=['A'] pred=['C']
+#16: gold=['B'] pred=['D']
+#18: gold=['C'] pred=['A']
+#20: gold=['C'] pred=['A']
+#22: gold=['D'] pred=['A']
